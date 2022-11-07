@@ -25,7 +25,7 @@ const patterns = {
     contactName:/^[A-Aa-z]{1,25}$/,
     contactNo :/^89([0-9]){1}[(0-9)]{8}$/
 };
-var radio=0;    //0 for name and 1 for Phone
+var radio=0;    
 startApp();
 
 phoneBtn.addEventListener('change',switch1);
